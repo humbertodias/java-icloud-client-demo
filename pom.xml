@@ -7,7 +7,6 @@
   <packaging>jar</packaging>
   <version>1.0-SNAPSHOT</version>
   <name>java-icloud-client-demo</name>
-  <url>http://maven.apache.org</url>
 
 <properties>
     <!-- maven-compiler-plugin configuration -->
@@ -19,7 +18,7 @@
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>3.8.1</version>
+      <version>4.12</version>
       <scope>test</scope>
     </dependency>
 
@@ -30,21 +29,19 @@
       <version>1.6</version>
   </dependency>
 
-      <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
-      <dependency>
-          <groupId>org.apache.logging.log4j</groupId>
-          <artifactId>log4j-core</artifactId>
-          <version>2.7</version>
-      </dependency>
+  <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
+  <dependency>
+    <groupId>org.apache.logging.log4j</groupId>
+    <artifactId>log4j-core</artifactId>
+    <version>[2.13.2,)</version>
+  </dependency>
 
-      <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
-      <dependency>
-          <groupId>org.apache.commons</groupId>
-          <artifactId>commons-lang3</artifactId>
-          <version>3.5</version>
-      </dependency>
-
-
+  <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
+  <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-lang3</artifactId>
+      <version>3.11</version>
+  </dependency>
 
   </dependencies>
 </project>
